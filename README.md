@@ -12,6 +12,8 @@ fsleyes --fullhelp
 # or online documentation!
 ```
 
+Look through the [online documentation of FSL](https://users.fmrib.ox.ac.uk/~paulmc/fsleyes/userdoc/latest/command_line.html).
+
 ## basic maximum intensity projection (`MIP`)
 
 - widely used in radiology setting
