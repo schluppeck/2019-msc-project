@@ -1,5 +1,14 @@
 # 2019-msc-project
-code for 2019 msc cog neurosci project
+
+code and ideas for 2019 msc cog neurosci project
+
+There are some video recordings associated with this in this [youtube playlist]( https://www.youtube.com/playlist?list=PLCZfmSQp7dzK95qF-pDgDh0hdlxMWJ8Ca)
+
+project makes use of a combination of tools, including:
+
+- FSL (https://fsl.fmrib.ox.ac.uk/fsl/fslwiki/)
+- Matlab (https://www.mathworks.com)
+- VMTK - vascular modelling toolkit (http://vmtk.org)
 
 ## rendering with `fsleyes`
 
@@ -33,6 +42,16 @@ d = nifitread(fname);
 ```
 
 see also `minimalMIP.m`
+
+## using *vascular modelling toolkit*
+
+- http://www.vmtk.org/
+- **note** installation instructions for  `windows` and `macos`, as well as some binary packages you can just download are there - but I had to compile on my computer (which can be a bit of  pain.)
+- for some command that I have started working with, check out `run_vmtk.sh` (but need to have `vtmk` installed)
+
+**why might this be useful??** - can surface reconstruct, render into images / videos and also do geometric analysis on the resulting segemented datasets.
+
+This will allow us to compare numbers to the published atlas and also work on a analysis flow for comparing intact / damaged vessels.
 
 ## Some local technical stuff
 
