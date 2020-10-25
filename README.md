@@ -6,6 +6,10 @@ Code and ideas for students working on the 2019 msc cog neurosci project.
 
 There are some video recordings associated with this in this [youtube playlist](https://www.youtube.com/playlist?list=PLCZfmSQp7dzK95qF-pDgDh0hdlxMWJ8Ca)
 
+<center>
+<img src="01-background.png" width="75%" >
+</center>
+
 In the project we made use of a combination of tools, including:
 
 - FSL (https://fsl.fmrib.ox.ac.uk/fsl/fslwiki/)
@@ -25,7 +29,16 @@ fsleyes --fullhelp
 # or online documentation!
 ```
 
+<center>
+<img src="angio+t2w-screenshot.png" width="50%" >
+</center>
+
+
 Look through the [online documentation of FSL](https://users.fmrib.ox.ac.uk/~paulmc/fsleyes/userdoc/latest/command_line.html).
+
+<center>
+<img src="MIP-screenshot.png" width="50%" >
+</center>
 
 ## basic maximum intensity projection (`MIP`)
 
@@ -46,6 +59,7 @@ d = nifitread(fname);
 ```
 
 see also `minimalMIP.m`
+
 
 ## using *vascular modelling toolkit*
 
