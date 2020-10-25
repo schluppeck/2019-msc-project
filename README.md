@@ -1,14 +1,18 @@
-# 2019-msc-project
+# Magnetic resonance angiography data 
 
-code and ideas for 2019 msc cog neurosci project
+## 2019-msc-project
 
-There are some video recordings associated with this in this [youtube playlist]( https://www.youtube.com/playlist?list=PLCZfmSQp7dzK95qF-pDgDh0hdlxMWJ8Ca)
+Code and ideas for students working on the 2019 msc cog neurosci project.
 
-project makes use of a combination of tools, including:
+There are some video recordings associated with this in this [youtube playlist](https://www.youtube.com/playlist?list=PLCZfmSQp7dzK95qF-pDgDh0hdlxMWJ8Ca)
+
+In the project we made use of a combination of tools, including:
 
 - FSL (https://fsl.fmrib.ox.ac.uk/fsl/fslwiki/)
 - Matlab (https://www.mathworks.com)
 - VMTK - vascular modelling toolkit (http://vmtk.org)
+
+There wasn't a huge amount of time, but some of the ideas we explored revolved around quanitifying vessel diameters in different cortical regions (by using atlas data from `fsl`, etc)
 
 ## rendering with `fsleyes`
 
@@ -58,9 +62,9 @@ This will allow us to compare numbers to the published atlas and also work on a 
 I have set up thigns on my computer (mac) as follows
 1. `git clone`ed the ``2019-msc-project`` folder
 
-2. made a "symbolic link" to the data location... e.g. 
+2. made a "symbolic link" to the data location... (some example data is actually included in this repo) e.g. 
 
 ```bash
 # ln -s REAL_LOC SHORTCUT_LOC
-ln -s ~/OneDrive\ -\ The\ University\ of\ Nottingham//Users/lpzds1/The\ University\ of\ Nottingham/2019-msc-cogneuro-research-project\ -\ General/angio angio
+ln -s ~/OneDrive_drive/angio angio
 ```
